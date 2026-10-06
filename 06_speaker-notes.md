@@ -3,7 +3,7 @@
 Nội dung dưới đây **trùng khớp** với phần Notes trong `01_Tu_tuong_HCM_Dai_doan_ket.pptx` (cùng sinh ra từ `_build/notes.py`).
 Ghi chú là gợi ý để nói tự nhiên — **không đọc nguyên văn**, không đọc slide.
 
-**Tổng thời lượng dự kiến: 11 phút 50 giây** (mục tiêu 10–12 phút). Slide 14 là phụ lục, chỉ mở khi được hỏi.
+**Tổng thời lượng dự kiến: 11 phút 50 giây** (mục tiêu 10–12 phút). Slide 15 là phụ lục, chỉ mở khi được hỏi.
 
 ## Bảng thời gian
 
@@ -20,10 +20,11 @@ Ghi chú là gợi ý để nói tự nhiên — **không đọc nguyên văn**,
 | 9 | Phóng to quy mô — từ lớp học đến quốc gia | DIỄN GIẢI CỦA NHÓM (phân tích quy mô) + VẬN DỤNG ĐƯƠNG ĐẠI (số liệu). | 0:45 | 7:10 | Thành viên 4 |
 | 10 | Đại đoàn kết khi mỗi người một “feed”? | VẬN DỤNG ĐƯƠNG ĐẠI (thí nghiệm tư duy) + DIỄN GIẢI CỦA NHÓM (liên hệ thói quen ↔ luận điểm) — không phải nội dung giáo trình. | 0:40 | 7:50 | Thành viên 4 |
 | 11 | Unity Lab | VẬN DỤNG ĐƯƠNG ĐẠI (mini-game của nhóm; AI hỗ trợ lập trình). | 2:15 (khoảng 2 phút chơi) | 10:05 | Thành viên 5 |
-| 12 | Quay lại câu hỏi ban đầu | DIỄN GIẢI CỦA NHÓM (câu trả lời, đánh giá đáp án) dựa trên LÝ LUẬN CỐT LÕI (các trích dẫn). | 0:55 | 11:00 | Thành viên 5 |
-| 13 | AI Usage · Liêm chính học thuật | Minh bạch AI / liêm chính học thuật. | 0:30 | 11:30 | Thành viên 5 |
-| 14 | Phụ lục — Nguồn tham khảo & ảnh | Phụ lục. | 0:00 (không tính giờ) | 11:30 | — |
-| 15 | Xin cảm ơn — mời phản biện | Kết thúc. | 0:20 | 11:50 | Cả nhóm |
+| 12 | Quay lại câu hỏi ban đầu | DIỄN GIẢI CỦA NHÓM (câu trả lời) dựa trên LÝ LUẬN CỐT LÕI (các trích dẫn). | 0:40 | 10:45 | Thành viên 5 |
+| 13 | Nhìn lại 4 đáp án | DIỄN GIẢI CỦA NHÓM (đánh giá đáp án) dựa trên LÝ LUẬN CỐT LÕI (trích dẫn ở slide 12). | 0:15 | 11:00 | Thành viên 5 |
+| 14 | AI Usage · Liêm chính học thuật | Minh bạch AI / liêm chính học thuật. | 0:30 | 11:30 | Thành viên 5 |
+| 15 | Phụ lục — Nguồn tham khảo & ảnh | Phụ lục. | 0:00 (không tính giờ) | 11:30 | — |
+| 16 | Xin cảm ơn — mời phản biện | Kết thúc. | 0:20 | 11:50 | Cả nhóm |
 
 **Nếu bị trễ giờ:** rút S8 xuống 45 giây (bỏ phần mời 2–3 bạn nói, chỉ hỏi giơ tay); S9 chỉ nêu 1 con số; S10 bỏ đọc số liệu.
 **Nếu mất mạng ở S11:** chiếu tình huống 1 của Unity Lab (ảnh chụp trong `_build/shots/`), cả lớp giơ 1–2–3 ngón cho A–B–C.
@@ -36,10 +37,10 @@ Ghi chú là gợi ý để nói tự nhiên — **không đọc nguyên văn**,
 | Thành viên 2 | 4–5 | Lý luận cốt lõi: vai trò, lực lượng |
 | Thành viên 3 | 6–7 | Luận đề của nhóm + mô hình bàn tay |
 | Thành viên 4 | 8–10 | Thí nghiệm lớp học, quy mô, số liệu đương đại |
-| Thành viên 5 | 11–13 | Unity Lab, kết luận, AI usage |
-| Cả nhóm | 15 | Mời phản biện |
+| Thành viên 5 | 11–14 | Unity Lab, kết luận, AI usage |
+| Cả nhóm | 16 | Mời phản biện |
 
-Nhóm 4 người: gộp TV4 + TV5 phần S11. Nhóm 6 người: tách S13 cho TV6.
+Nhóm 4 người: gộp TV4 + TV5 phần S11. Nhóm 6 người: tách S14 cho TV6.
 
 ---
 
@@ -255,23 +256,42 @@ NGƯỜI TRÌNH BÀY (gợi ý): Thành viên 5
 ## Slide 12 — Quay lại câu hỏi ban đầu
 
 ```
-MỤC ĐÍCH: Trả lời câu hỏi xuyên suốt, phân biệt rõ diễn giải và lý luận; khép lại khảo sát đầu giờ.
+MỤC ĐÍCH: Trả lời câu hỏi xuyên suốt, phân biệt rõ diễn giải và lý luận.
 
 LỜI NÓI (gợi ý — nói tự nhiên, không đọc slide):
-Đoàn kết có phải là tất cả mọi người phải giống nhau? (Bấm) Không phải giống nhau về mọi mặt. (Bấm) Cần nhất trí ở đâu? Ở mục đích chung và lập trường — Hồ Chí Minh nói rõ năm 1958: “Đoàn kết thực sự nghĩa là mục đích phải nhất trí và lập trường cũng phải nhất trí.” (Ngay trước câu này, Người nói: “Muốn tiến lên chủ nghĩa xã hội, mọi người cần đoàn kết thực sự và giúp nhau cùng tiến bộ.”) Được khác nhau ở đâu? Dân tộc, tôn giáo, tuổi tác, nghề nghiệp, cá tính — kể cả quá khứ: năm 1955 Người nói, dù trước đây chống chúng ta, nay thật thà tán thành hòa bình, thống nhất, độc lập, dân chủ thì cũng thật thà đoàn kết. Nghị quyết 23 năm 2003 cũng nêu: lấy mục tiêu độc lập, thống nhất, dân giàu, nước mạnh… làm điểm tương đồng, xóa bỏ mặc cảm, định kiến về quá khứ, thành phần, giai cấp. Cũng trong bài nói năm 1955, Người dặn phải chống hai khuynh hướng sai lầm: “cô độc hẹp hòi và đoàn kết vô nguyên tắc” — theo cách hiểu của nhóm: không khép kín, chỉ đoàn kết với người hợp mình; nhưng cũng không đoàn kết xuôi chiều, bỏ qua mục đích chung, lập trường và việc phê bình cái sai. (Bấm) Vì vậy, theo cách đọc của nhóm: đoàn kết là nhất trí về mục đích, lập trường và cùng hướng tới điểm chung; khác biệt chính đáng vẫn được tôn trọng — nhưng không đoàn kết vô nguyên tắc. (Bấm) Nhìn lại bốn đáp án: B gần nhất. A đúng một phần — cần nhất trí về mục đích và lập trường, không phải về mọi ý kiến. C là cách ra quyết định hợp lệ — chính Hồ Chí Minh nhắc “thiểu số phải phục tùng đa số” — nhưng chưa phải định nghĩa của đoàn kết; còn với Mặt trận, bài giảng nêu nguyên tắc hiệp thương dân chủ. D thì trái với “vừa đoàn kết, vừa đấu tranh… trên lập trường thân ái”. Ai muốn đổi số ngón tay của mình không?
+Đoàn kết có phải là tất cả mọi người phải giống nhau? (Bấm) Không phải giống nhau về mọi mặt. (Bấm) Cần nhất trí ở đâu? Ở mục đích chung và lập trường — Hồ Chí Minh nói rõ năm 1958: “Đoàn kết thực sự nghĩa là mục đích phải nhất trí và lập trường cũng phải nhất trí.” (Ngay trước câu này, Người nói: “Muốn tiến lên chủ nghĩa xã hội, mọi người cần đoàn kết thực sự và giúp nhau cùng tiến bộ.”) Được khác nhau ở đâu? Dân tộc, tôn giáo, tuổi tác, nghề nghiệp, cá tính — kể cả quá khứ: năm 1955 Người nói, dù trước đây chống chúng ta, nay thật thà tán thành hòa bình, thống nhất, độc lập, dân chủ thì cũng thật thà đoàn kết. Nghị quyết 23 năm 2003 cũng nêu: lấy mục tiêu độc lập, thống nhất, dân giàu, nước mạnh… làm điểm tương đồng, xóa bỏ mặc cảm, định kiến về quá khứ, thành phần, giai cấp. Cũng trong bài nói năm 1955, Người dặn phải chống hai khuynh hướng sai lầm: “cô độc hẹp hòi và đoàn kết vô nguyên tắc” — theo cách hiểu của nhóm: không khép kín, chỉ đoàn kết với người hợp mình; nhưng cũng không đoàn kết xuôi chiều, bỏ qua mục đích chung, lập trường và việc phê bình cái sai. (Bấm) Vì vậy, theo cách đọc của nhóm: đoàn kết là nhất trí về mục đích, lập trường và cùng hướng tới điểm chung; khác biệt chính đáng vẫn được tôn trọng — nhưng không đoàn kết vô nguyên tắc.
 
-CHUYỂN TIẾP: Trước khi kết thúc, nhóm xin minh bạch về cách nhóm đã dùng AI.
+CHUYỂN TIẾP: Vậy còn bốn đáp án lúc đầu giờ?
 
-LOẠI NỘI DUNG: DIỄN GIẢI CỦA NHÓM (câu trả lời, đánh giá đáp án) dựa trên LÝ LUẬN CỐT LÕI (các trích dẫn).
-NGUỒN: B-04; Q-08 (t.11 tr.362), Q-07 (t.4 tr.280), Q-06 (t.4 tr.534), Q-05 & Q-18 (t.9 tr.244), Q-09 (t.9 tr.203), Q-01 (t.13 tr.119–120), Q-20 (t.5 tr.276); NQ 23-NQ/TW (C-01).
-ĐỘ TIN CẬY: Trích dẫn: HIGH. Đánh giá đáp án: diễn giải của nhóm.
-THỜI GIAN: 0:55
+LOẠI NỘI DUNG: DIỄN GIẢI CỦA NHÓM (câu trả lời) dựa trên LÝ LUẬN CỐT LÕI (các trích dẫn).
+NGUỒN: B-04; Q-08 (t.11 tr.362), Q-07 (t.4 tr.280), Q-06 (t.4 tr.534), Q-05 & Q-18 (t.9 tr.244), Q-09 (t.9 tr.203), Q-01 (t.13 tr.119–120); NQ 23-NQ/TW (C-01).
+ĐỘ TIN CẬY: Trích dẫn: HIGH. Kết luận: diễn giải của nhóm.
+THỜI GIAN: 0:40
 NGƯỜI TRÌNH BÀY (gợi ý): Thành viên 5
 ```
 
 ---
 
-## Slide 13 — AI Usage · Liêm chính học thuật
+## Slide 13 — Nhìn lại 4 đáp án
+
+```
+MỤC ĐÍCH: Khép lại khảo sát đầu giờ: đối chiếu 4 đáp án ở slide 2 với kết luận vừa nêu.
+
+LỜI NÓI (gợi ý — nói tự nhiên, không đọc slide):
+Nhìn lại bốn đáp án: B gần nhất. A đúng một phần — cần nhất trí về mục đích và lập trường, không phải về mọi ý kiến. C là cách ra quyết định hợp lệ — chính Hồ Chí Minh nhắc “thiểu số phải phục tùng đa số” — nhưng chưa phải định nghĩa của đoàn kết; còn với Mặt trận, bài giảng nêu nguyên tắc hiệp thương dân chủ. D thì trái với “vừa đoàn kết, vừa đấu tranh… trên lập trường thân ái”. Ai muốn đổi số ngón tay của mình không?
+
+CHUYỂN TIẾP: Trước khi kết thúc, nhóm xin minh bạch về cách nhóm đã dùng AI.
+
+LOẠI NỘI DUNG: DIỄN GIẢI CỦA NHÓM (đánh giá đáp án) dựa trên LÝ LUẬN CỐT LÕI (trích dẫn ở slide 12).
+NGUỒN: B-04; Q-08 (t.11 tr.362), Q-20 (t.5 tr.276).
+ĐỘ TIN CẬY: Trích dẫn: HIGH. Đánh giá đáp án: diễn giải của nhóm.
+THỜI GIAN: 0:15
+NGƯỜI TRÌNH BÀY (gợi ý): Thành viên 5
+```
+
+---
+
+## Slide 14 — AI Usage · Liêm chính học thuật
 
 ```
 MỤC ĐÍCH: Đáp ứng tiêu chí 4.1–4.4: AI usage, kiểm chứng, liêm chính.
@@ -290,7 +310,7 @@ NGƯỜI TRÌNH BÀY (gợi ý): Thành viên 5
 
 ---
 
-## Slide 14 — Phụ lục — Nguồn tham khảo & ảnh
+## Slide 15 — Phụ lục — Nguồn tham khảo & ảnh
 
 ```
 MỤC ĐÍCH: Phụ lục nguồn — chỉ mở khi được hỏi.
@@ -309,7 +329,7 @@ NGƯỜI TRÌNH BÀY (gợi ý): —
 
 ---
 
-## Slide 15 — Xin cảm ơn — mời phản biện
+## Slide 16 — Xin cảm ơn — mời phản biện
 
 ```
 MỤC ĐÍCH: Kết thúc, mở phần phản biện bằng câu hỏi gợi mở.
