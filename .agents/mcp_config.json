@@ -1,0 +1,95 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ]
+    },
+    "doppler": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@dopplerhq/mcp-server",
+        "--project",
+        "medilab"
+      ]
+    },
+    "postgresql-mcp": {
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.13",
+        "--with",
+        "mcp<2",
+        "postgres-mcp==0.3.0",
+        "--access-mode=restricted",
+        "postgresql://root:root@localhost:15432/medilab"
+      ]
+    },
+    "serena": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--no-project",
+        "--python",
+        "3.13",
+        "--with",
+        "git+https://github.com/oraios/serena@1bbe53546124c00e4238972f1599a91fbf8c6539",
+        "--with",
+        "tools/serena-odoo-ls",
+        "--with",
+        "mcp-proxy==0.11.0",
+        "--with",
+        "filelock==3.25.2",
+        "--with",
+        "psutil==7.0.0",
+        "python",
+        "tools/scripts/serena-shared.py",
+        "--context",
+        "antigravity"
+      ],
+      "startup_timeout_sec": 180,
+      "env": {}
+    },
+    "graphify": {
+      "command": "graphify-mcp",
+      "args": [
+        "graphify-out/graph.json"
+      ],
+      "env": {}
+    },
+    "staruml": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "staruml-mcp-server@0.1.0"
+      ],
+      "env": {}
+    },
+    "staruml-usecase": {
+      "command": "node",
+      "args": [
+        "tools/scripts/staruml-usecase-mcp.mjs"
+      ],
+      "env": {}
+    },
+    "officecli": {
+      "command": "officecli",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    },
+    "drawio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@drawio/mcp@1.6.1"
+      ],
+      "env": {}
+    }
+  }
+}
