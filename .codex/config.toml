@@ -1,0 +1,13 @@
+# Generated from ../.mcp.json by tools/scripts/sync-mcp-config.ts.
+# Edit .mcp.json, then run: task mcps:sync
+
+[mcp_servers.filesystem]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-filesystem", "."]
+
+[mcp_servers.officecli]
+command = "officecli"
+args = ["mcp"]
+
+[plugins."superpowers@openai-curated-remote"]
+enabled = true
